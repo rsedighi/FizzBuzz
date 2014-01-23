@@ -1,19 +1,17 @@
-puts "Enter a number: "
-num = gets.chomp.to_i
+puts "Start by entering a new number: "
 
-if num == 0
+number= gets.chomp.to_i
+
+if number == 0
   puts 0
-
-elsif num %3 == 0
+elsif number %3 == 0
   puts 'Fizz'
-
-elsif num %5 == 0
+elsif number %5 == 0
   puts 'Buzz'
-
-elsif  num %15 == 0
+elsif  number %15 == 0
   puts 'FizzBuzz'
 
-else puts num
-
+else puts number
 end
+
 
