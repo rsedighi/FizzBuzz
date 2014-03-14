@@ -3,3 +3,7 @@ A simple approach to FizzBuzz. I have defined what message to show if the variab
 
 **FizzBuzz2**
 When the user enters a number that is multiples of 7, such as 105, it will print "FizzBuzzSivv
+
+
+##License
+http://rsedighi.mit-license.org
